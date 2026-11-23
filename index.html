@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+  <title>चि. गौरव आणि चि. सौ. का. ज्ञानेश्वरी - शुभविवाह निमंत्रण पत्रिका</title>
+  
+  <!-- SEO & Social Open Graph Meta Tags -->
+  <meta name="description" content="चि. गौरव आणि चि. सौ. का. ज्ञानेश्वरी यांचा शुभविवाह सोहळा | शनिवार, २० फेब्रुवारी २०२७ | श्री लॉन्स, अमरापूर, शेवगाव. सस्नेह निमंत्रण.">
+  <meta name="author" content="Gaurav & Dnyaneshwari Family">
+  
+  <!-- Open Graph for WhatsApp, Facebook & Telegram Previews -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="चि. गौरव आणि चि. सौ. का. ज्ञानेश्वरी - शुभविवाह निमंत्रण पत्रिका">
+  <meta property="og:description" content="शनिवार, २० फेब्रुवारी २०२७ | श्री लॉन्स, अमरापूर, शेवगाव. आपली उपस्थिती व शुभाशीर्वाद हेच आमचे वैभव!">
+  <meta property="og:image" content="assets1/opengraph-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="चि. गौरव आणि चि. सौ. का. ज्ञानेश्वरी - शुभविवाह निमंत्रण">
+  <meta name="twitter:description" content="शनिवार, २० फेब्रुवारी २०२७ | श्री लॉन्स, अमरापूर, शेवगाव. सस्नेह निमंत्रण.">
+  <meta name="twitter:image" content="assets1/opengraph-image.jpg">
+
+  <!-- Mobile Browser Theme Color -->
+  <meta name="theme-color" content="#531D28">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+  <!-- Favicon Links with Cache Busting -->
+  <link rel="icon" type="image/x-icon" href="favicon.ico?v=2">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets1/favicon-32x32.png?v=2">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets1/favicon-16x16.png?v=2">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets1/apple-icon.png?v=2">
+
+  <!-- Google Fonts Preconnect & Royal Devanagari Typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,400;1,600&family=Great+Vibes&family=Montserrat:wght@400;500;600&family=Noto+Serif+Devanagari:wght@400;500;600;700&family=Rozha+One&family=Yatra+One&display=swap" rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+<body class="envelope-active">
+
+  <!-- Screen-Reader Only Skip Link -->
+  <a href="#card-container" class="skip-link">मुख्य निमंत्रणाकडे जा</a>
+
+  <!-- Background Music Audio (Universal MP3 with M4A Fallback) -->
+  <audio id="wedding-audio" loop preload="auto" playsinline>
+    <source src="assets1/music.mp3" type="audio/mpeg">
+    <source src="assets1/vaaroon.m4a" type="audio/mp4">
+  </audio>
+
+  <!-- Fixed Viewport Framing Embellishments (Symmetrical Luxury Borders & Lanterns) -->
+  <div class="fixed-scene-frame" aria-hidden="true">
+    <!-- Top-Left Hanging Brass Candle Lantern with Jasmine Flowers -->
+    <div class="frame-decor lantern-decor lantern-decor-left">
+      <img src="assets1/image-d98rhd.jpg" alt="" class="decor-img lantern-img" onerror="this.style.display='none'">
+    </div>
+
+    <!-- Top-Right Hanging Brass Candle Lantern with Jasmine Flowers (Symmetrical Balance) -->
+    <div class="frame-decor lantern-decor lantern-decor-right">
+      <img src="assets1/image-f03oed.jpg" alt="" class="decor-img lantern-img lantern-img-right" onerror="this.src='assets1/image-d98rhd.jpg'">
+    </div>
+
+    <!-- Bottom Palace Balcony Balustrade Overlooking Misty Mountains -->
+    <div class="frame-decor balcony-decor">
+      <img src="assets1/image-17jqow.jpg" alt="" class="decor-img balcony-img" onerror="this.style.display='none'">
+    </div>
+
+    <!-- Ornate Double Border Framing -->
+    <div class="frame-outer-border"></div>
+  </div>
+
+  <!-- Interactive Floating Petals Canvas -->
+  <canvas id="petals-canvas" class="petals-canvas" aria-hidden="true"></canvas>
+
+  <!-- Floating Audio Equalizer Pill (Clean Circular Sound Control) -->
+  <button id="music-toggle" class="music-toggle music-equalizer-pill" type="button" aria-label="ध्वनी चालू किंवा बंद करा" title="ध्वनी">
+    <div class="equalizer-bars" aria-hidden="true">
+      <span class="bar bar-1"></span>
+      <span class="bar bar-2"></span>
+      <span class="bar bar-3"></span>
+      <span class="bar bar-4"></span>
+    </div>
+  </button>
+
+  <!-- Initial "अधिक माहिती पहा ∨" Pill Button (Fixed Bottom-Center) -->
+  <a href="#scratch-section" id="scroll-prompt-btn" class="scroll-prompt-pill" aria-label="पुढील माहिती पाहण्यासाठी खाली स्क्रोल करा">
+    <span>अधिक माहिती पहा</span>
+    <span class="scroll-arrow" aria-hidden="true">∨</span>
+  </a>
+
+  <!-- Tap-To-Open Royal Envelope Overlay (3D Flap Unfolding) -->
+  <section id="envelope-overlay" class="envelope-overlay" aria-label="लग्नपत्रिका लिफाफा">
+    <div class="envelope-scene">
+      <div class="envelope-card-base">
+
+        <!-- Top Announcement Text -->
+        <p class="envelope-pretitle">॥ सस्नेह निमंत्रण ॥</p>
+        
+        <!-- Script Couple Names on Cover (Stacked 3-Line Elegance) -->
+        <h2 class="envelope-couple-script">
+          <span class="name-line">चि. गौरव</span>
+          <span class="script-amp">संगे</span>
+          <span class="name-line">चि. सौ. का. ज्ञानेश्वरी</span>
+        </h2>
+
+        <!-- Left & Right Gold Chameli Flowers -->
+        <div class="envelope-flower-left" aria-hidden="true"></div>
+        <div class="envelope-flower-right" aria-hidden="true"></div>
+
+        <!-- 3D Flipping Envelope Flap -->
+        <div id="envelope-flap" class="envelope-flap">
+          <div class="flap-face flap-outside">
+            <div class="flap-chameli-border"></div>
+            
+            <!-- Gold Wax Seal Button with Monogram "श्री" -->
+            <button id="seal-button" class="seal-button" aria-label="लग्नपत्रिका उघडण्यासाठी सीलवर टॅप करा">
+              <span class="seal-halo-glow" aria-hidden="true"></span>
+              <div class="wax-seal-badge">
+                <span class="seal-monogram-text">श्री</span>
+              </div>
+            </button>
+          </div>
+          <div class="flap-face flap-inside"></div>
+        </div>
+
+        <!-- Prompt Pill Button: "👆 निमंत्रण उघडण्यासाठी टॅप करा" -->
+        <div class="envelope-prompt-pill" id="seal-prompt-pill">
+          <span class="prompt-hand" aria-hidden="true">👆</span> निमंत्रण उघडण्यासाठी टॅप करा
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Mobile-First Luxury Card Container (max-width 430px) -->
+  <main id="card-container" class="card-container" role="main">
+
+    <!-- Hero Section: Divine Shloka, Script Title, & Couple Names -->
+    <header id="hero-section" class="hero-section reveal-on-scroll fade-up">
+      <!-- Sacred Ganesha Shloka -->
+      <p class="shloka-heading" lang="mr">॥ श्री गणेशाय नमः ॥</p>
+
+      <!-- Royal Typographic Title -->
+      <div class="invitation-title-group">
+        <p class="title-the">॥ मंगल परिणय ॥</p>
+        <h1 class="title-wedding-script marathi-title">शुभविवाह</h1>
+        <p class="title-celebrations">सोहळा</p>
+      </div>
+
+      <!-- Elegant Gold Diamond Divider -->
+      <div class="gold-diamond-divider" aria-hidden="true">
+        <span class="divider-line"></span>
+        <span class="divider-diamond">◆</span>
+        <span class="divider-line"></span>
+      </div>
+
+      <!-- Couple Names in Royal Devanagari -->
+      <div class="hero-couple-names">
+        <span class="name-hero groom">चि. गौरव</span>
+        <span class="name-hero-and">आणि</span>
+        <span class="name-hero bride">चि. सौ. का. ज्ञानेश्वरी</span>
+      </div>
+    </header>
+
+    <!-- Family Honors & Parental Blessings Section -->
+    <section id="family-section" class="family-section reveal-on-scroll fade-up">
+      <!-- Groom's Honor Card -->
+      <div class="family-person-card">
+        <h2 class="family-full-name">चि. गौरव कैलास जगताप</h2>
+        <p class="family-relation">सौ. सुवर्णा व श्री. कैलास जगताप यांचे सुपुत्र</p>
+      </div>
+
+      <p class="family-connector-and">आणि</p>
+
+      <!-- Bride's Honor Card -->
+      <div class="family-person-card">
+        <h2 class="family-full-name">चि. सौ. का. ज्ञानेश्वरी तुकाराम धकटोडे</h2>
+        <p class="family-relation">सौ. संगीता व श्री. तुकाराम धकटोडे यांची सुकन्या</p>
+      </div>
+
+      <!-- Gold Diamond Divider -->
+      <div class="gold-diamond-divider" aria-hidden="true">
+        <span class="divider-line"></span>
+        <span class="divider-diamond">◆</span>
+        <span class="divider-line"></span>
+      </div>
+    </section>
+
+    <!-- Interactive Scratch-to-Reveal Date Card Section -->
+    <section id="scratch-section" class="scratch-section reveal-on-scroll zoom-in" aria-labelledby="scratch-title">
+      <p class="surprise-eyebrow">एक सुखद सरप्राईज</p>
+      <h2 id="scratch-title" class="surprise-title">शुभ दिवस</h2>
+      
+      <!-- Gold Diamond Divider -->
+      <div class="gold-diamond-divider" aria-hidden="true">
+        <span class="divider-line"></span>
+        <span class="divider-diamond">◆</span>
+        <span class="divider-line"></span>
+      </div>
+
+      <!-- Scratch Card Component -->
+      <div class="scratch-card-wrapper">
+        <div id="scratch-container" class="scratch-container">
+          
+          <!-- Underlying Hidden Content Revealed upon Scratching -->
+          <div id="scratch-revealed-content" class="scratch-revealed-content">
+            <p class="revealed-day">शनिवार</p>
+            <h3 class="revealed-day-num">२०</h3>
+            <p class="revealed-month-year">फेब्रुवारी · २०२७</p>
+            <p class="revealed-location">श्री लॉन्स, अमरापूर, शेवगाव</p>
+          </div>
+
+          <!-- Gold Foil Scratch Canvas Overlay -->
+          <canvas id="scratch-canvas" class="scratch-canvas" aria-label="तारीख पाहण्यासाठी स्क्रॅच करा"></canvas>
+
+        </div>
+
+        <!-- Fallback Button for Accessibility & Instant Reveal -->
+        <button type="button" id="scratch-fallback-btn" class="scratch-reveal-btn">
+          तारीख पाहण्यासाठी येथे टॅप करा
+        </button>
+      </div>
+    </section>
+
+    <!-- Live Auspicious Countdown Section -->
+    <section id="countdown-section" class="countdown-section reveal-on-scroll fade-up" aria-labelledby="countdown-heading">
+      <div class="countdown-card-inner">
+        <h2 id="countdown-heading" class="countdown-title">शुभमुहूर्ताची प्रतीक्षा</h2>
+        
+        <!-- Gold Diamond Divider -->
+        <div class="gold-diamond-divider" aria-hidden="true">
+          <span class="divider-line"></span>
+          <span class="divider-diamond">◆</span>
+          <span class="divider-line"></span>
+        </div>
+
+        <!-- 4-Unit Grid (Zero-padded by js/main.js) -->
+        <div class="countdown-grid" role="timer" aria-live="polite">
+          <div class="countdown-cell">
+            <span id="days" class="countdown-digit">00</span>
+            <span class="countdown-label">दिवस</span>
+          </div>
+
+          <div class="countdown-colon" aria-hidden="true">:</div>
+
+          <div class="countdown-cell">
+            <span id="hours" class="countdown-digit">00</span>
+            <span class="countdown-label">तास</span>
+          </div>
+
+          <div class="countdown-colon" aria-hidden="true">:</div>
+
+          <div class="countdown-cell">
+            <span id="minutes" class="countdown-digit">00</span>
+            <span class="countdown-label">मिनिटे</span>
+          </div>
+
+          <div class="countdown-colon" aria-hidden="true">:</div>
+
+          <div class="countdown-cell">
+            <span id="seconds" class="countdown-digit">00</span>
+            <span class="countdown-label">सेकंद</span>
+          </div>
+        </div>
+
+        <p id="countdown-message" class="countdown-message">चि. गौरव व चि. सौ. का. ज्ञानेश्वरी यांच्या मंगल प्रवासाची सुरुवात!</p>
+      </div>
+    </section>
+
+    <!-- Ceremonies Itinerary Section (4 Events: Haldi, Mehndi, Engagement, Marriage) -->
+    <section id="timeline-section" class="timeline-section reveal-on-scroll fade-up" aria-labelledby="timeline-heading">
+      <div class="timeline-header-group">
+        <h2 id="timeline-heading" class="section-heading-serif">कार्यक्रम पत्रिका</h2>
+        
+        <!-- Gold Diamond Divider -->
+        <div class="gold-diamond-divider" aria-hidden="true">
+          <span class="divider-line"></span>
+          <span class="divider-diamond">◆</span>
+          <span class="divider-line"></span>
+        </div>
+      </div>
+
+      <!-- Container where 4 dynamic event cards are rendered by js/main.js -->
+      <div id="events-list" class="events-list">
+        
+        <!-- 1. Haldi Card (Fallback markup) -->
+        <article class="event-card reveal-on-scroll fade-up" data-event-index="0">
+          <div class="event-date-banner">शुक्रवार, १९ फेब्रुवारी २०२७</div>
+          <h3 class="event-script-title">हळद समारंभ</h3>
+          <p class="event-time-banner">सकाळी ११:०० वाजता पासून</p>
+          <div class="event-venue-block">
+            <p class="venue-name">श्री लॉन्स</p>
+            <p class="venue-address">अमरापूर, शेवगाव, महाराष्ट्र ४१४५०५</p>
+          </div>
+          <p class="event-dress-code">पोषाख: पारंपरिक पिवळा पोषाख</p>
+          <div class="event-action-pills">
+            <a href="https://www.google.com/maps/search/?api=1&amp;query=Shree+Lawns%2C+Amarapur%2C+Shevgaon%2C+Maharashtra+414505" target="_blank" rel="noopener noreferrer" class="pill-btn pill-btn-dark">
+              <span class="btn-emoji" aria-hidden="true">📍</span> दिशा मार्ग
+            </a>
+            <button type="button" class="pill-btn pill-btn-outline btn-calendar" data-event-idx="0">
+              <span class="btn-emoji" aria-hidden="true">📅</span> नोंदवा
+            </button>
+          </div>
+        </article>
+
+        <!-- 2. Mehndi Card -->
+        <article class="event-card reveal-on-scroll fade-up" data-event-index="1">
+          <div class="event-date-banner">शुक्रवार, १९ फेब्रुवारी २०२७</div>
+          <h3 class="event-script-title">मेंदी सोहळा</h3>
+          <p class="event-time-banner">सायंकाळी ०६:०० वाजता पासून</p>
+          <div class="event-venue-block">
+            <p class="venue-name">श्री लॉन्स</p>
+            <p class="venue-address">अमरापूर, शेवगाव, महाराष्ट्र ४१४५०५</p>
+          </div>
+          <p class="event-dress-code">पोषाख: उत्सवी रंगीबेरंगी वेषभूषा</p>
+          <div class="event-action-pills">
+            <a href="https://www.google.com/maps/search/?api=1&amp;query=Shree+Lawns%2C+Amarapur%2C+Shevgaon%2C+Maharashtra+414505" target="_blank" rel="noopener noreferrer" class="pill-btn pill-btn-dark">
+              <span class="btn-emoji" aria-hidden="true">📍</span> दिशा मार्ग
+            </a>
+            <button type="button" class="pill-btn pill-btn-outline btn-calendar" data-event-idx="1">
+              <span class="btn-emoji" aria-hidden="true">📅</span> नोंदवा
+            </button>
+          </div>
+        </article>
+
+        <!-- 3. Engagement Card -->
+        <article class="event-card reveal-on-scroll fade-up" data-event-index="2">
+          <div class="event-date-banner">शनिवार, २० फेब्रुवारी २०२७</div>
+          <h3 class="event-script-title">साखरपुडा समारंभ</h3>
+          <p class="event-time-banner">सायंकाळी ०५:०० वाजता पासून</p>
+          <div class="event-venue-block">
+            <p class="venue-name">श्री लॉन्स</p>
+            <p class="venue-address">अमरापूर, शेवगाव, महाराष्ट्र ४१४५०५</p>
+          </div>
+          <p class="event-dress-code">पोषाख: शाही पारंपरिक वेषभूषा</p>
+          <div class="event-action-pills">
+            <a href="https://www.google.com/maps/search/?api=1&amp;query=Shree+Lawns%2C+Amarapur%2C+Shevgaon%2C+Maharashtra+414505" target="_blank" rel="noopener noreferrer" class="pill-btn pill-btn-dark">
+              <span class="btn-emoji" aria-hidden="true">📍</span> दिशा मार्ग
+            </a>
+            <button type="button" class="pill-btn pill-btn-outline btn-calendar" data-event-idx="2">
+              <span class="btn-emoji" aria-hidden="true">📅</span> नोंदवा
+            </button>
+          </div>
+        </article>
+
+        <!-- 4. Marriage Card (Highlight) -->
+        <article class="event-card highlight-event-card reveal-on-scroll fade-up" data-event-index="3">
+          <div class="event-date-banner">शनिवार, २० फेब्रुवारी २०२७</div>
+          <h3 class="event-script-title">शुभविवाह सोहळा</h3>
+          <p class="event-time-banner">सायंकाळी ०७:३० वा. शुभमुहूर्तावर</p>
+          <div class="event-venue-block">
+            <p class="venue-name">श्री लॉन्स</p>
+            <p class="venue-address">अमरापूर, शेवगाव, महाराष्ट्र ४१४५०५</p>
+          </div>
+          <p class="event-dress-code">पोषाख: शाही महाराष्ट्रीयन पारंपरिक पोशाख</p>
+          <div class="event-action-pills">
+            <a href="https://www.google.com/maps/search/?api=1&amp;query=Shree+Lawns%2C+Amarapur%2C+Shevgaon%2C+Maharashtra+414505" target="_blank" rel="noopener noreferrer" class="pill-btn pill-btn-dark">
+              <span class="btn-emoji" aria-hidden="true">📍</span> दिशा मार्ग
+            </a>
+            <button type="button" class="pill-btn pill-btn-outline btn-calendar" data-event-idx="3">
+              <span class="btn-emoji" aria-hidden="true">📅</span> नोंदवा
+            </button>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Polaroid Couple Photo Gallery Section ("गोड आठवणी") -->
+    <section id="gallery-section" class="gallery-section reveal-on-scroll fade-up" aria-labelledby="gallery-heading">
+      <div class="gallery-header-group">
+        <h2 id="gallery-heading" class="gallery-title">गोड आठवणी</h2>
+        
+        <!-- Gold Diamond Divider -->
+        <div class="gold-diamond-divider" aria-hidden="true">
+          <span class="divider-line"></span>
+          <span class="divider-diamond">◆</span>
+          <span class="divider-line"></span>
+        </div>
+      </div>
+
+      <!-- Polaroid Carousel / Slider Container with Next & Previous Controls -->
+      <div class="polaroid-carousel-wrap">
+        <button type="button" class="gallery-nav-btn prev-btn" id="gallery-prev-btn" aria-label="मागील छायाचित्र">‹</button>
+        <button type="button" class="gallery-nav-btn next-btn" id="gallery-next-btn" aria-label="पुढील छायाचित्र">›</button>
+
+        <div id="polaroid-carousel" class="polaroid-carousel">
+          <div id="polaroid-track" class="polaroid-track">
+            
+            <!-- Polaroid 1 -->
+            <div class="polaroid-item active" data-index="0">
+              <div class="polaroid-frame tilt-left">
+                <div class="polaroid-photo-box">
+                  <img src="assets1/couple-1.jpg" alt="गौरव आणि ज्ञानेश्वरी आनंदाचे क्षण" class="polaroid-img" loading="lazy">
+                </div>
+                <p class="polaroid-caption">आनंदाचे क्षण</p>
+              </div>
+            </div>
+
+            <!-- Polaroid 2 -->
+            <div class="polaroid-item" data-index="1">
+              <div class="polaroid-frame tilt-right">
+                <div class="polaroid-photo-box">
+                  <img src="assets1/couple-2.jpg" alt="मेंदी सोहळा व पवित्र बंधन" class="polaroid-img" loading="lazy">
+                </div>
+                <p class="polaroid-caption">मेंदीचे रंग</p>
+              </div>
+            </div>
+
+            <!-- Polaroid 3 -->
+            <div class="polaroid-item" data-index="2">
+              <div class="polaroid-frame tilt-left">
+                <div class="polaroid-photo-box">
+                  <img src="assets1/couple-3.jpg" alt="शुभविवाह शाही क्षण" class="polaroid-img" loading="lazy">
+                </div>
+                <p class="polaroid-caption">साथ जन्मांची</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Dot Navigation Indicators -->
+        <div id="gallery-dots" class="gallery-dots" role="tablist" aria-label="फोटो गॅलरी नेव्हिगेशन">
+          <button type="button" class="gallery-dot active" data-slide="0" aria-label="छायाचित्र १"></button>
+          <button type="button" class="gallery-dot" data-slide="1" aria-label="छायाचित्र २"></button>
+          <button type="button" class="gallery-dot" data-slide="2" aria-label="छायाचित्र ३"></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blessings & Warm Wishes Closing Section -->
+    <section id="closing-section" class="closing-section reveal-on-scroll fade-up" aria-labelledby="blessings-heading">
+      <div class="closing-content-inner">
+        
+        <p class="rsvp-eyebrow">॥ सस्नेह निमंत्रण ॥</p>
+        <h2 id="blessings-heading" class="rsvp-title">स्नेहनिमंत्रण व शुभाशीर्वाद</h2>
+        
+        <!-- Gold Diamond Divider -->
+        <div class="gold-diamond-divider" aria-hidden="true">
+          <span class="divider-line"></span>
+          <span class="divider-diamond">◆</span>
+          <span class="divider-line"></span>
+        </div>
+
+        <p class="rsvp-reply-by">आपली उपस्थिती व शुभाशीर्वाद हेच आमचे वैभव!</p>
+
+        <!-- Family Contact Buttons for Directions & Assistance -->
+        <div class="rsvp-contacts-grid">
+          <div class="contact-card">
+            <span class="contact-title">वरपक्ष</span>
+            <strong class="contact-name">श्री. कैलास जगताप</strong>
+            <a href="tel:+919999999999" class="btn-tel-pill" aria-label="श्री. कैलास जगताप यांना कॉल करा (+91 99999 99999)">
+              <span class="tel-icon" aria-hidden="true">📞</span> +91 99999 99999
+            </a>
+          </div>
+
+          <div class="contact-card">
+            <span class="contact-title">वधूपक्ष</span>
+            <strong class="contact-name">श्री. तुकाराम धकटोडे</strong>
+            <a href="tel:+918888888888" class="btn-tel-pill" aria-label="श्री. तुकाराम धकटोडे यांना कॉल करा (+91 88888 88888)">
+              <span class="tel-icon" aria-hidden="true">📞</span> +91 88888 88888
+            </a>
+          </div>
+        </div>
+
+        <!-- Gold Diamond Divider -->
+        <div class="gold-diamond-divider" aria-hidden="true">
+          <span class="divider-line"></span>
+          <span class="divider-diamond">◆</span>
+          <span class="divider-line"></span>
+        </div>
+
+        <!-- Heartfelt Quote -->
+        <p class="blessing-quote">आपल्या स्नेहमय उपस्थितीने आणि आशीर्वादाने आमचा हा विवाहसोहळा अधिक मंगलमय होईल.</p>
+
+        <!-- Couple Script Names -->
+        <p class="closing-script-names">गौरव आणि ज्ञानेश्वरी</p>
+
+        <!-- Wedding Hashtag -->
+        <p class="wedding-hashtag">#गौरव_संग_ज्ञानेश्वरी</p>
+
+        <!-- Closing Family Blessing -->
+        <p class="crafted-brand">जगताप व धकटोडे परिवारातर्फे सस्नेह निमंत्रण</p>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Application Scripts -->
+  <script src="js/wedding-data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
